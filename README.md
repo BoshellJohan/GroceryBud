@@ -1,12 +1,37 @@
-# React + Vite
+# 🛒 Grocery Bud – React Mini Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and functional **Grocery List App** built with **React**, where users can manage their shopping items with ease.
 
-Currently, two official plugins are available:
+This project allows you to **add**, **edit**, and **remove** grocery items, and uses the **browser's Local Storage** to persist data across sessions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✅ Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ➕ **Add Items** – Quickly add anything you need to buy
+- 📝 **Edit Items** – Update existing entries with ease
+- ❌ **Delete Items** – Remove items from your list
+- 💾 **Persistent Data** – Everything is saved using `localStorage`
+- ⚡ **Instant Feedback** – Renders updates instantly with state hooks
+- 📱 **Responsive Design** – Clean UI across devices
+
+---
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [JavaScript (ES6+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Local Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+- CSS / Tailwind (optional)
+
+---
+
+## 🚀 Getting Started
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/your-username/grocery-bud.git
+cd grocery-bud
+npm install
+npm run dev
